@@ -4,38 +4,40 @@ int main() {
  
 int a, b, c;
 
+scanf("%d",&a);
 
-a<=10000 && a>=-10000;
-b<=99 && b>=0;
-c<=999 && c>=0;
+scanf("%d",&b);
 
-printf("A = %d", a);
-
-printf("B = %d", b);
-
-printf("C = %d", c);
-
-
-printf("A =10%d", a);
-
-printf("B =10%d", b);
-
-printf("C =10%d", c);
+scanf("%d",&c);
 
 
 
-printf("A =%010d", a);
+printf("A = %d, ", a);
 
-printf("B =010%d", b);
+printf("B = %d, ", b);
 
-printf("C =%010d", c);
+printf("C = %d\n", c);
 
 
-printf("A =%-10d", a);
+printf("A = %10d, ", a);
 
-printf("B =%-10d", b);
+printf("B = %10d, ", b);
 
-printf("C =%-10d", c);
+printf("C = %10d\n", c);
+
+
+printf("A = %010d, ", a);
+
+printf("B = %010d, ", b);
+
+printf("C = %010d\n", c);
+
+
+printf("A = %-10d, ", a);
+
+printf("B = %-10d, ", b);
+
+printf("C = %-10d\n", c);
 
 
     return 0;
