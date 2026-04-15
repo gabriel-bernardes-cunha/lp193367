@@ -6,7 +6,8 @@ Exercício   : 1071
 Data        : 15/04/2026
 Objetivo    : Escrever a soma dos valores ímpares que estão entre os valores 
 fornecidos na entrada que deverá caber em um inteiro.
-Aprendizado : 
+Aprendizado : Escrever condicoes, escrever repeticoes usando for, especialmente 
+nas condicoes de inicio e parada
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
@@ -20,12 +21,11 @@ int main() {
         y=x;
         x=z;
     }
-    for(y=y;y<=x;y++){
-        z=y;
-        if (z%2!=0) {
-           s=s+z;
+    for(z=y;z<x;z++){
+        if (z%2!=0 && z!=y) {
+           s+=z;
         }
     }
-    printf("%d",s);
+    printf("%d\n",s);
     return 0;
 }
