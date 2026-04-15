@@ -11,10 +11,21 @@ Aprendizado :
 
 #include <stdio.h>
 int main() {
-    int x,y;
-    scanf("%d%d",&x&y);
-    
- 
-   
-return 0;
+    int x,y,z,s;
+    z=0;
+    s=0;
+    scanf("%d%d",&x,&y);
+    if (x<y){
+        z=y;
+        y=x;
+        x=z;
+    }
+    for(y=y;y<=x;y++){
+        z=y;
+        if (z%2!=0) {
+           s=s+z;
+        }
+    }
+    printf("%d",s);
+    return 0;
 }
