@@ -50,5 +50,5 @@ int main() {
     printf("B = %0.0f\n",b);
     printf("C = %0.0lf, ",c);
     printf("D = %0.0lf\n",d);
-return 0;
+    return 0;
 }
