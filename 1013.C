@@ -9,7 +9,8 @@ Aprendizado : Usar scanf, relizar contas, usar abs
 -------------------------------------------------------------------------- */
 #include <stdio.h>
 
-int main() {
+int main() 
+{
  
  int a, b, c, maior;
 
@@ -21,5 +22,5 @@ int main() {
  maior=(maior+c+abs(maior-c))/2;
  printf("%d eh o maior\n", maior);
  
-return 0;
+ return 0;
 }
