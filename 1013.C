@@ -1,16 +1,25 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Linguagem   : C
+Plataforma  : https://judge.beecrowd.com/pt/search
+Exercício   : 1013
+Data        : 07/04/2026
+Objetivo    : Calcular o maior de 3 numeros
+Aprendizado : Usar scanf, relizar contas, usar abs
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 
 int main() {
  
-int a, b, c, maior;
+ int a, b, c, maior;
 
-scanf("%d", &a);
-scanf("%d", &b);
-scanf("%d", &c);
+ scanf("%d", &a);
+ scanf("%d", &b);
+ scanf("%d", &c);
 
-maior=(a+b+abs(a-b))/2;
-maior=(maior+c+abs(maior-c))/2;
-printf("%d eh o maior\n", maior);
+ maior=(a+b+abs(a-b))/2;
+ maior=(maior+c+abs(maior-c))/2;
+ printf("%d eh o maior\n", maior);
  
-    return 0;
+return 0;
 }
