@@ -1,13 +1,14 @@
 /* --------------------------------------------------------------------------
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Gabriel Bernardes Cunha
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 2757
+Problema    : https://judge.beecrowd.com/pt/problems/view/2757
 Data        : 09/04/2026
 Objetivo    : Escrever numeros inteiros de variadas formas
 Aprendizado : Dominar printf e a forma que um numero sera escrita, como sua 
 justificativa e notacao
 -------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 int main() {
