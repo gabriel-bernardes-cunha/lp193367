@@ -7,6 +7,7 @@ Data        : 07/04/2026
 Objetivo    : Calcular o maior de 3 numeros
 Aprendizado : Usar scanf, relizar contas, usar abs
 -------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 int main() 
