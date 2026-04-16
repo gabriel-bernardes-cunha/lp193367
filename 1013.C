@@ -1,8 +1,8 @@
 /* --------------------------------------------------------------------------
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Gabriel Bernardes Cunha
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1013
+Problema    : https://judge.beecrowd.com/pt/problems/view/1013
 Data        : 07/04/2026
 Objetivo    : Calcular o maior de 3 numeros
 Aprendizado : Usar scanf, relizar contas, usar abs
