@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Gabriel Bernardes Cunha
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1080
+Data        : 17/04/2026
+Objetivo    : 
+Aprendizado : 
+-------------------------------------------------------------------------- */
 
 #include <stdio.h>
 int main () {
