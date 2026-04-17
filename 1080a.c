@@ -4,7 +4,7 @@ Nome        : Gabriel Bernardes Cunha
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1080
 Data        : 16/04/2026
-Objetivo    : Ler 100 numeros, motrar o maior e sua posicao na listagem
+Objetivo    : Ler 100 numeros, mostrar o maior e sua posicao na listagem
 Aprendizado : relizar listas e utilizar parametros para posicao
 -------------------------------------------------------------------------- */
 
