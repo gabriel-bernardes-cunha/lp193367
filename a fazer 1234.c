@@ -21,20 +21,18 @@ int main() {
     frase[strcspn(frase,"\n")]='\0';
     
     while (frase[i]!='\0'){
-        if (frase[i]==' '){
-            frase[i]= ' ';
-        } 
-        if (n%2==0){
+       if (frase[i]!=' ') {
+        if (n%2==0) {
             frase[i]=toupper(frase[i]);
-            n++;
-            
-        } 
+        
+        }
         else {
             frase[i]=tolower(frase[i]);
-            n++;
         }
-        i++;
+        n++;
+       }
+       i++;
     }
-    printf("%s\n",frase);
+    printf("%s"frase);
     return 0;
 }
