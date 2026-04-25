@@ -20,6 +20,7 @@ int main() {
         
         scanf ("%s",saida);
         scanf("%d",&a);
+        a=a%26;
         
         while(saida[b]!='\0') {
             if (saida[b]-a<65 && saida[b]-a>60 || saida[b]-a<97 && saida[b]-a>){
