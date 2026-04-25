@@ -18,24 +18,23 @@ int main() {
     int n=0;
     
     fgets(frase,51,stdin);
-    frase[strcspn(frase,"\n")]='0';
+    frase[strcspn(frase,"\n")]='\0';
     
     while (frase[i]!='\0'){
-        if (frase[i]==' ') {
-            printf(" ");
+        if (frase[i]==' '){
+            frase[i]= ' ';
+        } 
+        if (n%2==0){
+            frase[i]=toupper(frase[i]);
+            n++;
+            
         } 
         else {
-            // i percorre o laço
-            // n percorre posições, se n=i, pode não ser dançante!
-            if (n%2!=0){
-                printf("%c",tolower(frase[i]));
-            } 
-            else {
-                 printf("%c",toupper(frase[i]));
-            }
+            frase[i]=tolower(frase[i]);
             n++;
         }
         i++;
     }
+    printf("%s\n",frase);
     return 0;
 }
