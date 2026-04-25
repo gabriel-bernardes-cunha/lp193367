@@ -11,7 +11,7 @@ Aprendizado :
  
 int main() {
  
-    int N, descolamento=0;
+    int N, a=0;
     int b=0;
     scanf("%d",&N);
     for (int i=0;i<N;i++) {
@@ -19,7 +19,7 @@ int main() {
         char saida[50];
         
         scanf ("%s",saida);
-        scanf("%d",&descolamento);
+        scanf("%d",&a);
         
         while(saida[b]!='\0') {
             if (saida[b]-a<65 && saida[b]-a>60 || saida[b]-a<97 && saida[b]-a>){
