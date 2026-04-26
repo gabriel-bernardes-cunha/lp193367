@@ -14,12 +14,10 @@ int main() {
     int N, a=0; 
     int b=0;
     scanf("%d",&N);
-    for (int i=0;i<N;i++) {  
-     
+    while (N>0) {  
         scanf ("%s",saida);
         scanf("%d",&a);
         a=a%26;
-        
         while(saida[b]!='\0') {
             // se o deslocamento sair do alfabeto, adiciona-se 26
             if ((saida[b]-a<'a' && saida[b]>'a') || (saida[b]-a<'A')){
@@ -30,6 +28,7 @@ int main() {
         }
         printf("%s\n",saida);
         b=0; 
+        N+=-1;
     }
     return 0;
 }
