@@ -5,7 +5,7 @@ Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1234
 Data        : 25/04/2026
 Objetivo    : Transformar uma frase em uma letra maiúscula e em seguida uma minúscula, sucessivamente
-Aprendizado : Ler frases (strings), usar tolower/toupper, usar frase[i]='caractere', usar fgets stfin, strcspn e o uso do NULL
+Aprendizado : Ler frases (strings), usar tolower/toupper, usar frase[i]='caractere', usar fgets stfin, strcspn ...
 -------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <ctype.h> 
