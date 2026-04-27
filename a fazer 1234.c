@@ -19,7 +19,7 @@ int main() {
     fgets(frase, 51, stdin);
     frase[strcspn(frase,"\n")]='\0';
     
-    // não sei o que errei, conferir depois
+    // não sei o que errei, nem o que fazer, conferir depois
     
       while (frase[i]!='\0'){
          if (frase[i]!=' ') {
