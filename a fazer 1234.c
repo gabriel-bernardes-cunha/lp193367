@@ -21,7 +21,7 @@ int main() {
     
     // não sei o que errei, conferir depois
     
-        while (frase[i]!='\0'){
+      while (frase[i]!='\0'){
          if (frase[i]!=' ') {
             if (n%2==0) {
                 frase[i]=toupper(frase[i]);
@@ -33,8 +33,8 @@ int main() {
          n++;    
          }
          i++;
-        }
-        printf("%s\n",frase);
+      }
+      printf("%s\n",frase);
     }    
     return 0;
 }
