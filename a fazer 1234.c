@@ -19,22 +19,56 @@ int main() {
     fgets(frase, 51, stdin);
     frase[strcspn(frase,"\n")]='\0';
     
-    // não sei o que errei, nem o que fazer, conferir depois
-    
-      while (frase[i]!='\0'){
-         if (frase[i]!=' ') {
+    while (frase[i]!='\0'){
+        if (frase[i]!=' ') {
             if (n%2==0) {
                 frase[i]=toupper(frase[i]);
         
-         }
-         else    {
+            }
+            else {
                 frase[i]=tolower(frase[i]);
-         }
-         n++;    
-         }
-         i++;
-      }
-      printf("%s\n",frase);
+            }
+        n++;    
+        }
+    i++;
+    }
+    printf("%s\n",frase);
+    return 0;
+}
+
+______________________________________
+#include <stdio.h>
+#include <ctype.h> 
+#include <string.h>
+
+int main() {
+    
+    char frase[51];
+    int i=0;
+    int n=0;
+    
+    frase[strcspn(frase,"\n")]='\0';
+    
+    while (1) {
+        fgets(frase, 51, stdin);
+        
+        while (frase[i]!='\0'){
+         if (frase[i]!=' ') {
+             if (n%2==0) {
+                    frase[i]=toupper(frase[i]);
+        
+                }
+                else {
+                    frase[i]=tolower(frase[i]);
+                }
+            n++;    
+        }
+        i++;
+        }
+    if (strlen(frase)==0) {
+        break;
+    }
     }    
+    printf("%s\n",frase);
     return 0;
 }
