@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Gabriel Bernardes Cunha
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1078
+Data        : 28/04/2026
+Objetivo    : Realizar a tabuada de um número
+Aprendizado : Laços for e trabalhar com valores acrescidos
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
  
 int main() {
