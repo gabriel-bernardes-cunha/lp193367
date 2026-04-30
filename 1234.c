@@ -23,13 +23,13 @@ int main() {
         
         while (frase[i]!='\0'){
          if (frase[i]!=' ') {
-             if (n%2==0) {
-                    frase[i]=toupper(frase[i]);
+            if (n%2==0) {
+                 frase[i]=toupper(frase[i]);
         
-                }
-                else {
-                    frase[i]=tolower(frase[i]);
-                }
+            } 
+            else {
+                 frase[i]=tolower(frase[i]);
+            }
             n++;    
         }
         i++;
